@@ -1,0 +1,57 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNU8raulbWwiYeVqz+Q3QCs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sarakhowaja/HTH-hustle/blob/main/Turtleexample\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "AnuU9C08vJWq"
+      },
+      "outputs": [],
+      "source": [
+        "import turtle\n",
+        "claire = turtle.Turtle()\n",
+        "claire.shape('turtle')\n",
+        "\n",
+        "claire.penup()\n",
+        "#Move turtle a little further\n",
+        "claire.forward(50)\n",
+        "#change the text?\n",
+        "claire.write(\"Hello, I'm Claire!\")\n",
+        "#move it more steps backward\n",
+        "claire.backward(100)\n",
+        "claire.write(\"Nice to meet you\")\n",
+        "claire.backward(30)\n",
+        "#strings are on top of eachother\n",
+        "#fix: move turtle further back\n",
+        "\n",
+        "#https://hourofpython.trinket.io/a-visual-introduction-to-python#/turtles/meet-tina"
+      ]
+    }
+  ]
+}
